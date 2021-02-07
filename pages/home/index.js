@@ -95,57 +95,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="technologies-container">
-        <div className="title">
-          Technology stack i’m using
-        </div>
-        <div className="description">
-          I work closely with global clients to build awesome & complex platforms, by utilizing the best tools and techniques for speed, scalability, and performance.
-        </div>
-        
-        <div className="technologies">
-          <Grid container spacing={1}>
-            <Grid container item xs={12} spacing={3}>
-              <Grid item xs={2}>
-                <div className="tech-item">
-                  <IconTechJavaScript />
-                  <div className="tech-desc">Javascript</div>
-                </div>
-              </Grid>
-              <Grid item xs={2}>
-                <div className="tech-item">
-                  <IconTechJavaScript />
-                  <div className="tech-desc">Javascript</div>
-                </div>
-              </Grid>
-              <Grid item xs={2}>
-                <div className="tech-item">
-                  <IconTechJavaScript />
-                  <div className="tech-desc">Javascript</div>
-                </div>
-              </Grid>
-              <Grid item xs={2}>
-                <div className="tech-item">
-                  <IconTechJavaScript />
-                  <div className="tech-desc">Javascript</div>
-                </div>
-              </Grid>
-              <Grid item xs={2}>
-                <div className="tech-item">
-                  <IconTechJavaScript />
-                  <div className="tech-desc">Javascript</div>
-                </div>
-              </Grid>
-              <Grid item xs={2}>
-                <div className="tech-item">
-                  <IconTechJavaScript />
-                  <div className="tech-desc">Javascript</div>
-                </div>
-              </Grid>
-            </Grid>
-          </Grid>
-        </div>
-      </div>
     </StyledHome>
   );
 };
