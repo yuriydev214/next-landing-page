@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import StyledHome from './styled';
@@ -27,17 +27,21 @@ import Card from '../../assets/images/card.svg';
 import { Button, Grid, Paper } from '@material-ui/core';
 
 const Home = () => {
+  const aboutRef = useRef(null);
+  const stackRef = useRef(null);
+  const contactRef = useRef(null);
+  const executeScroll = (ref) => ref.current.scrollIntoView()   
   return (
     <StyledHome>
       <Header />
       <div className="sub-header">
         <MyAvatar />
         <div className="sub-menus">
-          <div className="menu">About</div>
+          <div className="menu" onClick={() => executeScroll(aboutRef)}>About</div>
           <IconDivider />
-          <div className="menu">Stack</div>
+          <div className="menu" onClick={() => executeScroll(stackRef)}>Stack</div>
           <IconDivider />
-          <div className="menu">Contact</div>
+          <div className="menu" onClick={() => executeScroll(contactRef)}>Contact</div>
         </div>
       </div>
       <div className="main-container">
@@ -69,7 +73,7 @@ const Home = () => {
         </div>
         <Card style={{ marginRight: 80 }} />
       </div>
-      <div className="introduction-container">
+      <div ref={aboutRef} className="introduction-container">
         <div className="screenshot-container">
           <div className="header">
             Introduction
@@ -107,7 +111,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="technologies-container">
+      <div ref={stackRef} className="technologies-container">
         <div className="title">
           Technology stack i’m using
         </div>
@@ -196,7 +200,9 @@ const Home = () => {
           </Grid>
         </div>
       </div>
-      <Footer />
+      <div ref={contactRef}>
+        <Footer />
+      </div>
     </StyledHome>
   );
 };

@@ -24,6 +24,7 @@ const Home = styled.div`
         color: #FFFFFF;
         margin-right: 50px;
         margin-left: 50px;
+        cursor: pointer;
       }
     }
   }
@@ -93,6 +94,7 @@ const Home = styled.div`
           display: flex;
           align-items: center;
           justify-content: center;
+          border: none;
 
           span {
             font-family: Space Grotesk;
