@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 const Home = styled.div`
   background: #151515;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
 
   .sub-header {
     display: flex;
@@ -201,6 +201,7 @@ const Home = styled.div`
 
   .technologies-container {
     margin-top: 150px;
+    padding-bottom: 150px;
 
     .title {
       font-family: sans-serif;

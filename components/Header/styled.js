@@ -13,8 +13,8 @@ const Header = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
     height: 100%;
 
     .links-container {
