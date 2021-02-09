@@ -4,7 +4,7 @@ const Footer = styled.div`
   padding-top: 50px;
 
   .text {
-    font-family: sans-serif;
+    font-family: Circular Std;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -13,7 +13,7 @@ const Footer = styled.div`
     max-width: 90%;
 
     span {
-      font-family: sans-serif;
+      font-family: Circular Std;
       font-size: 17px;
       line-height: 27px;
       color: #A1A1A1;
@@ -21,7 +21,7 @@ const Footer = styled.div`
   }
 
   .description {
-    font-family: sans-serif;
+    font-family: Circular Std;
     font-size: 17px;
     line-height: 27px;
     color: #A1A1A1;
@@ -44,7 +44,7 @@ const Footer = styled.div`
       align-items: center;
     
       .link-item {
-        font-family: sans-serif;
+        font-family: Circular Std;
         font-style: normal;
         font-weight: bold;
         font-size: 17px;
@@ -53,7 +53,7 @@ const Footer = styled.div`
       }
 
       .link-copyright {
-        font-family: sans-serif;
+        font-family: Circular Std;
         font-style: normal;
         font-weight: 500;
         font-size: 17px;

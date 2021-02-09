@@ -40,14 +40,14 @@ const Home = styled.div`
       margin-top: 25px;
 
       .board-desc {
-        font-family: sans-serif;
+        font-family: Circular Std;
         font-style: normal;
         font-weight: bold;
         font-size: 69px;
         line-height: 73px;
         letter-spacing: -0.28px;
         color: #FFFFFF;
-        max-width: 410px;
+        max-width: 420px;
         padding-bottom: 50px;
         border-bottom: 1.2px solid #353433;
       }
@@ -63,7 +63,7 @@ const Home = styled.div`
           margin-right: 25px;
 
           .header {
-            font-family: sans-serif;
+            font-family: Circular Std;
             font-style: normal;
             font-weight: bold;
             font-size: 20px;
@@ -127,7 +127,7 @@ const Home = styled.div`
 
     .screenshot-container {
       .header {
-        font-family: sans-serif;
+        font-family: Circular Std;
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
@@ -141,7 +141,7 @@ const Home = styled.div`
       max-width: 538px;
 
       .title {
-        font-family: sans-serif;
+        font-family: Circular Std;
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
@@ -151,7 +151,7 @@ const Home = styled.div`
       }
 
       .content {
-        font-family: sans-serif;
+        font-family: Circular Std;
         font-size: 20px;
         line-height: 35px;
         color: #FFFFFF;
@@ -163,7 +163,7 @@ const Home = styled.div`
       }
 
       .description {
-        font-family: sans-serif;
+        font-family: Circular Std;
         font-size: 20px;
         line-height: 35px;
         color: #FFFFFF;
@@ -179,7 +179,7 @@ const Home = styled.div`
           margin-right: 30px;
 
           .value {
-            font-family: sans-serif;
+            font-family: Circular Std;
             font-style: normal;
             font-weight: 500;
             font-size: 70px;
@@ -189,7 +189,7 @@ const Home = styled.div`
           }
 
           .name {
-            font-family: sans-serif;
+            font-family: Circular Std;
             font-style: normal;
             font-weight: 500;
             font-size: 17px;
@@ -206,7 +206,7 @@ const Home = styled.div`
     padding-bottom: 150px;
 
     .title {
-      font-family: sans-serif;
+      font-family: Circular Std;
       font-style: normal;
       font-weight: bold;
       font-size: 24px;
@@ -216,7 +216,7 @@ const Home = styled.div`
     }
 
     .description {
-      font-family: sans-serif;
+      font-family: Circular Std;
       font-size: 20px;
       line-height: 35px;
       color: #FFFFFF;
@@ -229,7 +229,7 @@ const Home = styled.div`
           margin-bottom: 35px;
         }
         .tech-desc {
-          font-family: sans-serif;
+          font-family: Circular Std;
           font-style: normal;
           font-weight: 500;
           font-size: 20px;
