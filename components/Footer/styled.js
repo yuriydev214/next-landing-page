@@ -4,16 +4,16 @@ const Footer = styled.div`
   padding-top: 50px;
 
   .text {
-    font-family: Circular Std;
+    font-family: CircularStd;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 70px;
     color: #FFFFFF;
-    max-width: 90%;
 
     span {
-      font-family: Circular Std;
+      font-family: CircularStd;
+      font-weight: 100;
       font-size: 17px;
       line-height: 27px;
       color: #A1A1A1;
@@ -21,7 +21,7 @@ const Footer = styled.div`
   }
 
   .description {
-    font-family: Circular Std;
+    font-family: CircularStd;
     font-size: 17px;
     line-height: 27px;
     color: #A1A1A1;

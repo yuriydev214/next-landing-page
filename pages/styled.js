@@ -99,6 +99,7 @@ const Home = styled.div`
           span {
             font-family: Space Grotesk;
             font-size: 18px;
+            font-weight: 600;
             line-height: 21px;
             color: #FFFFFF;
           }
@@ -141,7 +142,7 @@ const Home = styled.div`
       max-width: 538px;
 
       .title {
-        font-family: Circular Std;
+        font-family: CircularStd;
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
@@ -151,7 +152,7 @@ const Home = styled.div`
       }
 
       .content {
-        font-family: Circular Std;
+        font-family: CircularStd;
         font-size: 20px;
         line-height: 35px;
         color: #FFFFFF;
@@ -163,7 +164,7 @@ const Home = styled.div`
       }
 
       .description {
-        font-family: Circular Std;
+        font-family: CircularStd;
         font-size: 20px;
         line-height: 35px;
         color: #FFFFFF;
@@ -206,7 +207,7 @@ const Home = styled.div`
     padding-bottom: 150px;
 
     .title {
-      font-family: Circular Std;
+      font-family: CircularStd;
       font-style: normal;
       font-weight: bold;
       font-size: 24px;
@@ -216,7 +217,7 @@ const Home = styled.div`
     }
 
     .description {
-      font-family: Circular Std;
+      font-family: CircularStd;
       font-size: 20px;
       line-height: 35px;
       color: #FFFFFF;
@@ -229,7 +230,7 @@ const Home = styled.div`
           margin-bottom: 35px;
         }
         .tech-desc {
-          font-family: Circular Std;
+          font-family: CircularStd;
           font-style: normal;
           font-weight: 500;
           font-size: 20px;
